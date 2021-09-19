@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title id="title"></title>
+	<link href="options.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="common.js"></script>
+	<script type="text/javascript" src="options.js"></script>
+</head>
+
+<body onload="onload()">
+
+	<form name="options_form">
+	<table width="100%" height="100%"><tr><td valign=top align=center>
+		
+		<table border=0 width="300">
+			<tr><td>
+			
+			<div class="region" align=center>
+
+				<div class="header">
+					<img class="img-logo" src="/images/icon48_grn.png"
+						onclick="window.open('https://chrome.google.com/webstore/detail/khihkgdcfbjdnfgalkjnimbmofnhhpho');"
+						title="Click to website"
+						alt="Chess.com Notifier logo">
+					<script>getMessage("extName")</script>
+				</div>
+				<div class="innerbox">
+					<script>getMessage("lblUsername")</script><br><input type="text" id="txtUsername" />
+					<p>
+					<script>getMessage("lblPassword")</script><br><input type="password" id="txtPassword" />
+					<p>
+					<script>getMessage("lblUserToken")</script><br><input type="password" id="txtUserToken" disabled="disabled"/>
+					<p>
+					<script>getMessage("lblInterval")</script><br><input type="text" id="txtInterval" />
+					<p>
+					<input type="checkbox" id="chkAlertNotify">
+						<script>getMessage("lblAlertNotification")</script>
+					</input>
+					<p>
+					<input type="checkbox" id="chkSoundNotify">
+						<script>getMessage("lblSoundNotification")</script>
+					</input>
+					<p>
+					<input type="checkbox" id="chkMultiTab">
+						<script>getMessage("lblMultiTab")</script>
+					</input>
+					
+				</div>
+	
+				<input id="btnSave" type="button" onclick="saveOptions()" class="button" />
+				<input id="btnClose" type="button" onclick="closeOptions()" class="button" />
+				<div class="rate_review">
+					<a href="https://chrome.google.com/webstore/detail/khihkgdcfbjdnfgalkjnimbmofnhhpho">Review or Rate</a>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<a href="https://sites.google.com/site/deexaminer/chess-com-notifier/versions">V.<script>getMessage("extVersion")</script></a>
+				| <a href="http://www.mozilla.org/MPL/MPL-1.1.html">MPL 1.1</a>
+				<br />
+				&copy; 2008-2012 <a href="http://www.chess.com/echess/profile/deExaminer">deExaminer</a>
+				<p />
+				includes code from <a href="https://addons.mozilla.org/en-US/firefox/addon/chesscom-notifier/">Firefox add-on</a>
+				<br />
+				by <a href="http://www.chess.com/echess/profile/baeuml">Martin Baeuml</a>
+			</div>
+			
+			</td></tr>
+		</table>
+		
+	</td></tr></table>
+	</form>
+
+</body>
+</html>

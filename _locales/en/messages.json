@@ -1,0 +1,92 @@
+{
+	"btnClose": {
+		"description": "Options Close button label",
+		"message": "Close"
+	},
+	"btnSave": {
+		"description": "Options Save button label",
+		"message": "Save"
+	},
+	"extName": {
+		"description": "Extension name",
+		"message": "Chess.com Notifier"
+	},
+	"extVersion": {
+		"description": "Extension version",
+		"message": "2012.5.18.1537"
+	},
+	"lblUsername": {
+		"description": "Options label",
+		"message": "Username"
+	},	
+	"lblPassword": {
+		"description": "Options label",
+		"message": "Password"
+	},	
+	"lblUserToken": {
+		"description": "Options label",
+		"message": "User Token"
+	},
+	"lblInterval": {
+		"description": "Options label",
+		"message": "Update Interval (in minutes)"
+	},	
+	"lblSoundNotification": {
+		"description": "Options checkbox label",
+		"message": "Sound Notification"
+	},
+	"lblAlertNotification": {
+		"description": "Options checkbox label",
+		"message": "Popup Notification"
+	},
+	"lblMultiTab": {
+		"description": "Options checkbox label",
+		"message": "Allow Multiple Chess.com Tabs"
+	},
+	
+	"lblGamesPending": {
+		"description": "Popup label",
+		"message": "'s turns"
+	},
+	"lblCheckNow": {
+		"description": "Popup label",
+		"message": "Refresh"
+	},
+
+	"ttlOptions": {
+		"description": "Options Title",
+		"message": "Options"
+	},
+	"alertMsg": {
+		"description": "Alert Message",
+		"message": "Move pending for "
+	},
+	"errorUsername": {
+		"description": "Error",
+		"message": "Chess.com: Error: please set Username in Options"
+	},
+	"errorConnection": {
+		"description": "Error",
+		"message": "Chess.com: Error: unable to retrieve data"
+	},
+	"errorUserNotFound": {
+		"description": "Error",
+		"message": "Chess.com: Error: Username not found: "
+	},
+	"noMove": {
+		"description": "Move",
+		"message": "Chess.com: No moves pending for "
+	},
+	"myMove": {
+		"description": "Move",
+		"message": "Chess.com: Move pending for "
+	},
+	"checking": {
+		"description": "Checking moves pending",
+		"message": "Chess.com: Retrieving data for "
+	},
+	"onIntervalChange": {
+		"description": "Message alert when interval time changes",
+		"message": "Chess.com Notifier: Interval change on next Google Chrome restart"
+	}
+}

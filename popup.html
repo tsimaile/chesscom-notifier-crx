@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<title id="title"></title>
+	<link href="options.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="common.js"></script>
+	<script type="text/javascript" src="options.js"></script>
+	<script>refreshStatus();</script>
+</head>
+
+<body onload="onload()">
+
+
+		<table border=0 width="300">
+			<tr><td>
+			
+			<div class="region">
+				<script>document.write(localStorage.username) + getMessage("lblGamesPending")</script> : <span id="spnGamesPending" />
+				<p>
+				<script>getMessage("lblPassword")</script><br><input type="password" id="txtPassword" />
+				<p>
+				<script>getMessage("lblInterval")</script><br><input type="text" id="txtInterval" />
+				<p>
+				<input type="checkbox" id="chkAlertNotify">
+					<script>getMessage("lblAlertNotification")</script>
+				</input>
+				<p>
+				<input type="checkbox" id="chkSoundNotify">
+					<script>getMessage("lblSoundNotification")</script>
+				</input>
+				<p>
+				<input type="checkbox" id="chkMultiTab">
+					<script>getMessage("lblMultiTab")</script>
+				</input>
+				
+			</div>
+
+			<div class="header">
+				<img class="img-logo" src="/images/icon48_grn.png"
+					onclick="window.open('https://chrome.google.com/webstore/detail/khihkgdcfbjdnfgalkjnimbmofnhhpho');"
+					title="Click to website"
+					alt="Chess.com Notifier logo">
+				<script>getMessage("extName")</script>
+			</div>
+			
+			</td></tr>
+		</table>
+		
+
+</body>
+</html>

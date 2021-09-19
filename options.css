@@ -1,0 +1,31 @@
+body {
+	font-family: 	calibri, arial;
+	}
+.img-logo {
+	height: 		26px;
+	width: 			26px;
+	border: 		none;
+	vertical-align:	bottom;
+	}
+.header {
+	font-size:		26px;
+	font-family:	cambria, georgia;
+	vertical-align:	top;
+	margin-bottom:	24px;
+	}
+.region {
+	border-style:	solid;
+	border-color:	#cdc;
+	padding:		8px;
+	margin:			4px;
+	margin-bottom:	12px;
+	}
+.button {
+	width:			64px;
+	}
+.footer {
+	text-align:		right;
+	}
+.innerbox {
+	text-align:		left;
+	}

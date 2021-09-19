@@ -1,0 +1,20 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "/images/icon48_clr.png",
+	  "default_popup": "popup.html"
+   },
+   "default_locale": "en",
+   "description": "Notify when Chess.com moves pending",
+   "homepage_url": "https://chrome.google.com/webstore/detail/khihkgdcfbjdnfgalkjnimbmofnhhpho",
+   "icons": {
+      "128": "/images/icon128_grn.png",
+      "16": "/images/icon16_clr.png",
+      "48": "/images/icon48_grn.png"
+   },
+   "minimum_chrome_version": "5.0.316.0",
+   "name": "__MSG_extName__",
+   "options_page": "options.html",
+   "permissions": [ "notifications", "tabs", "http://www.chess.com/*" ],
+   "version": "2012.5.18.1537"
+}
